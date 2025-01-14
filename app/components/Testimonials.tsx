@@ -34,7 +34,7 @@ export default function Testimonials() {
                 </Avatar>
               </CardHeader>
               <CardContent>
-                <p className="italic text-center">"{testimonial.content}"</p>
+                <p className="italic text-center">&quot;{testimonial.content}&quot;</p>
               </CardContent>
               <CardFooter>
                 <p className="font-semibold text-center w-full">{testimonial.name}</p>
